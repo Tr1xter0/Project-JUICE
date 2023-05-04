@@ -1,0 +1,99 @@
+body {
+  background: rgb(147, 218, 251);
+  background: linear-gradient(
+    0deg,
+    rgba(147, 218, 251, 1) 0%,
+    rgba(163, 214, 255, 1) 15%,
+    rgba(183, 209, 255, 1) 30%,
+    rgba(204, 204, 255, 1) 45%,
+    rgba(224, 199, 247, 1) 60%,
+    rgba(240, 194, 235, 1) 75%,
+    rgba(247, 192, 227, 1) 90%,
+    rgba(252, 191, 221, 1) 100%
+  );
+}
+
+.navbar {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 22px;
+  padding: 10px;
+  transition: 0.4s;
+  border-radius: 16px;
+  font-family: Nunito;
+}
+
+.div-list {
+  height: auto;
+  width: auto;
+  margin-right: 100px;
+}
+
+.div-list a:hover {
+  background-color: black;
+  color: white;
+}
+
+#logo-name {
+  font-family: Nunito;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.article-div {
+  width: 25%;
+  border: 3px solid transparent;
+  border-radius: 40px;
+  margin: 25px;
+  margin-left: 400px;
+  margin-top: 85px;
+}
+
+.article-div > p {
+  color: black;
+  margin: 5%;
+  font-size: 25px;
+  font-family: Nunito;
+}
+
+.article-div > h1 {
+  color: black;
+  margin: 0%;
+  margin-top: 30px;
+  font-size: 40px;
+  font-family: Nunito;
+}
+
+.logo-image {
+  width: 35%;
+  height: auto;
+  min-width: 300px;
+  margin: 50px;
+  margin-top: 100px;
+  margin-right: 200px;
+  border: 3px solid transparent;
+  border-radius: 22px;
+}
+
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer {
+  margin-top: 45px;
+  padding: 10px;
+  color: black;
+  text-align: center;
+  font-size: 18px;
+  font-family: Nunito;
+}
