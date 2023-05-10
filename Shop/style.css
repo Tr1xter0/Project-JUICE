@@ -1,0 +1,38 @@
+body {
+  background: rgb(252, 191, 221);
+  background: linear-gradient(
+    0deg,
+    rgba(252, 191, 221, 1) 25%,
+    rgba(147, 218, 251, 1) 100%
+  );
+  font-family: nunito;
+}
+
+.navbar {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: black;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 22px;
+  padding: 10px;
+  transition: 0.4s;
+  border-radius: 16px;
+  font-family: Nunito;
+}
+
+.buttonlogo {
+  height: 60px;
+  width: 60px;
+}
+
+#logo-name {
+  font-family: Nunito;
+  margin-right: 850px;
+  margin-top: 30px;
+}
