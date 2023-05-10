@@ -1,11 +1,9 @@
 body {
-  background: rgb(255, 183, 211);
+  background: rgb(252, 191, 221);
   background: linear-gradient(
     0deg,
-    rgba(255, 183, 211, 1) 0%,
-    rgba(255, 200, 214, 1) 25%,
-    rgba(82, 236, 236, 1) 75%,
-    rgba(37, 254, 255, 1) 100%
+    rgba(252, 191, 221, 1) 25%,
+    rgba(147, 218, 251, 1) 100%
   );
 }
 
@@ -85,7 +83,6 @@ body {
 
 .black-line {
   background-color: gray;
-  color: gray;
   margin-top: 150px;
   width: 100%;
   height: 5px;
@@ -100,7 +97,7 @@ body {
 
 .info {
   width: 50%;
-  font-size: 17px;
+  font-size: 22px;
 }
 
 .flex {
