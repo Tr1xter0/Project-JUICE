@@ -8,6 +8,11 @@ body {
   font-family: nunito;
 }
 
+header {
+  border: 3px solid black;
+  border-radius: 12px;
+}
+
 .navbar {
   height: 100%;
   display: flex;
@@ -20,19 +25,36 @@ body {
   text-decoration: none;
   color: inherit;
   font-size: 22px;
-  padding: 10px;
+  padding: 5px;
   transition: 0.4s;
-  border-radius: 16px;
+  border-radius: 14px;
   font-family: Nunito;
 }
 
 .buttonlogo {
-  height: 60px;
-  width: 60px;
+  display: flex;
+  height: 50%;
+  width: 50%;
+}
+
+.line {
+  font-size: 5px;
+  color: transparent;
+  background-color: #7393b3;
+  border-radius: 12px;
 }
 
 #logo-name {
   font-family: Nunito;
-  margin-right: 850px;
-  margin-top: 30px;
+  margin-right: 55%;
+  margin-top: 1.5%;
+}
+
+footer {
+  margin-top: 1%;
+  padding: 1%;
+  color: black;
+  text-align: center;
+  font-size: 18px;
+  font-family: Nunito;
 }

@@ -7,6 +7,11 @@ body {
   );
 }
 
+header {
+  border: 3px solid black;
+  border-radius: 12px;
+}
+
 .navbar {
   height: 100%;
   display: flex;
@@ -19,15 +24,16 @@ body {
   text-decoration: none;
   color: inherit;
   font-size: 22px;
-  padding: 10px;
+  padding: 5px;
   transition: 0.4s;
-  border-radius: 16px;
+  border-radius: 14px;
   font-family: Nunito;
 }
 
 .buttonlogo {
-  height: 60px;
-  width: 60px;
+  display: flex;
+  height: 50%;
+  width: 50%;
 }
 
 .line {
@@ -49,22 +55,25 @@ body {
 
 #logo-name {
   font-family: Nunito;
-  margin-right: 850px;
-  margin-top: 30px;
+  margin-right: 55%;
+  margin-top: 1.5%;
+}
+
+.introduction {
+  margin-top: 2.5%;
 }
 
 .article-div {
   width: 25%;
   border: 3px solid transparent;
   border-radius: 40px;
-  margin: 25px;
-  margin-left: 400px;
-  margin-top: 85px;
+  margin-left: 25%;
+  margin-top: 8%;
 }
 
 .article-div > p {
   color: black;
-  margin: 5%;
+  margin: 2%;
   font-size: 25px;
   font-family: Nunito;
 }
@@ -72,7 +81,7 @@ body {
 .article-div > h1 {
   color: black;
   margin: 0%;
-  margin-top: 30px;
+  margin-top: 1%;
   font-size: 40px;
   font-family: Nunito;
 }
@@ -80,17 +89,15 @@ body {
 .logo-image {
   width: 35%;
   height: auto;
-  min-width: 300px;
-  margin: 50px;
-  margin-top: 100px;
-  margin-right: 200px;
+  margin-top: 5%;
+  margin-right: 10%;
   border: 3px solid transparent;
   border-radius: 22px;
 }
 
 .black-line {
   background-color: #7393b3;
-  margin-top: 150px;
+  margin-top: 15%;
   width: 100%;
   height: 5px;
   border-radius: 12px;
@@ -99,12 +106,20 @@ body {
 
 .info-main {
   font-family: Nunito;
-  margin: 50px;
+  display: flex;
+  margin-left: 10%;
+  margin-top: 3%;
 }
 
 .info {
-  width: 50%;
+  width: 75%;
   font-size: 22px;
+}
+
+#birb {
+  width: 20%;
+  height: 20%;
+  margin-right: 15%;
 }
 
 .flex {
@@ -112,9 +127,37 @@ body {
   justify-content: space-between;
 }
 
+#mandrinkingjuice {
+  margin: auto;
+  margin-left: 2.5%;
+  width: 30%;
+}
+
+.info2-main {
+  display: flex;
+  justify-content: flex-end;
+  font-family: nunito;
+}
+
+.info2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 5%;
+  padding: 1%;
+}
+
+.info2 > h1 {
+  font-size: 360%;
+}
+
+.info2 > p {
+  width: 80%;
+  font-size: 160%;
+}
+
 footer {
-  margin-top: 40px;
-  padding: 10px;
+  margin-top: 1%;
+  padding: 1%;
   color: black;
   text-align: center;
   font-size: 18px;
