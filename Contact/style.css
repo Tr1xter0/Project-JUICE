@@ -49,7 +49,7 @@ header {
 #logo-name {
   font-family: Nunito;
   margin-right: 850px;
-  margin-top: 30px;
+  margin-top: 25px;
 }
 
 .container {
@@ -64,7 +64,7 @@ header {
 h1 {
   font-size: 36px;
   margin-bottom: 20px;
-  color: white;
+  color: black;
 }
 
 form {

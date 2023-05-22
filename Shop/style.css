@@ -1,9 +1,13 @@
 body {
-  background: rgb(252, 191, 221);
+  background: rgb(227, 66, 52);
   background: linear-gradient(
     0deg,
-    rgba(252, 191, 221, 1) 25%,
-    rgba(147, 218, 251, 1) 100%
+    rgba(227, 66, 52, 1) 0%,
+    rgba(226, 93, 91, 1) 20%,
+    rgba(226, 119, 130, 1) 40%,
+    rgba(225, 146, 169, 1) 60%,
+    rgba(225, 172, 208, 1) 80%,
+    rgba(224, 199, 247, 1) 100%
   );
   font-family: nunito;
 }

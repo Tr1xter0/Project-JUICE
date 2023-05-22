@@ -7,6 +7,11 @@ body {
   );
 }
 
+header {
+  border: 3px solid black;
+  border-radius: 12px;
+}
+
 .navbar {
   height: 100%;
   display: flex;
@@ -52,8 +57,8 @@ body {
 
 #logo-name {
   font-family: Nunito;
-  margin-right: 850px;
-  margin-top: 30px;
+  margin-right: 55%;
+  margin-top: 1.5%;
 }
 
 footer {
