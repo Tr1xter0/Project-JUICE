@@ -15,8 +15,6 @@ body {
 header {
   border: 3px solid black;
   border-radius: 12px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
-    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
 }
 
 .navbar {
@@ -43,8 +41,8 @@ header {
 }
 
 .div-list a:hover {
-  background-color: black;
-  color: white;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .buttonlogo {
@@ -57,6 +55,104 @@ header {
   font-family: Nunito;
   margin-right: 55%;
   margin-top: 1.5%;
+}
+
+#h2-for-section {
+  font-size: 46px;
+  line-height: 54px;
+  color: black;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.section-p1 {
+  padding: 40px 80px;
+}
+
+#butik {
+  text-align: center;
+}
+
+#butik .pro-container {
+  border: 3px solid #22031f;
+  border-radius: 25px;
+}
+
+.butiksektion {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+
+#butik .pro {
+  width: 23%;
+  background-color: white;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: 1px solid lightgray;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgb(185, 185, 185);
+  position: relative;
+}
+
+#butik .pro:hover {
+  box-shadow: 20px 20px 30px rgb(214, 214, 214);
+}
+
+#pr {
+  width: 100%;
+  border-radius: 20px;
+}
+
+#butik .pro2 {
+  width: 13%;
+  background-color: white;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: 1px solid lightgray;
+  border-radius: 25px;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgb(185, 185, 185);
+  position: relative;
+  margin-top: 30px;
+}
+
+#butik .pro2:hover {
+  box-shadow: 20px 20px 30px rgb(214, 214, 214);
+}
+
+.pro-container h1 {
+  margin-top: 30px;
+}
+
+.pro-container2 {
+  border: 3px solid #22031f;
+  border-radius: 25px;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.pro-container3 {
+  border: 3px solid #22031f;
+  border-radius: 25px;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.butiksektion2 {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  flex-wrap: wrap;
+  padding: 15px;
+}
+
+h1 {
+  font-size: 35px;
 }
 
 footer {
