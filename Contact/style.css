@@ -1,9 +1,9 @@
 body {
-  background: rgb(252, 191, 221);
+  background: rgb(175, 238, 238);
   background: linear-gradient(
     0deg,
-    rgba(252, 191, 221, 1) 25%,
-    rgba(147, 218, 251, 1) 100%
+    rgba(175, 238, 238, 1) 0%,
+    rgba(0, 191, 255, 1) 100%
   );
   font-family: nunito;
 }
@@ -91,7 +91,7 @@ input[type="submit"] {
   width: 20%;
   padding: 10px;
   font-size: 18px;
-  background-color: lightblue;
+  background-color: white;
   color: black;
   border: none;
   border-radius: 5px;
