@@ -1,4 +1,5 @@
 body {
+  /* Bakgrundsfärgerna vilket jag har skapat genom cssgradient.com */
   background: rgb(175, 238, 238);
   background: linear-gradient(
     0deg,
@@ -9,11 +10,13 @@ body {
 }
 
 header {
+  /* en svart border för min header */
   border: 3px solid black;
   border-radius: 12px;
 }
 
 .navbar {
+  /* Min navbars storlek och hur alla items i den ska vara placerade */
   height: 100%;
   display: flex;
   align-items: center;
@@ -22,6 +25,7 @@ header {
 }
 
 .navbar a {
+  /* Utseende för knapparna */
   text-decoration: none;
   color: inherit;
   font-size: 22px;
@@ -31,28 +35,33 @@ header {
   font-family: Nunito;
 }
 
+.buttonlogo {
+  /* Storlek för hemknappen */
+  height: 60px;
+  width: 60px;
+}
+
 .div-list {
+  /* en div som knapparna är i */
   height: auto;
   width: auto;
 }
 
 .div-list a:hover {
+  /* Hover effekt med en box shadow som får det att se ut som att den flyttas frammåt mot användaren */
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
-.buttonlogo {
-  height: 60px;
-  width: 60px;
-}
-
 #logo-name {
+  /* Namnet på företaget som står på vänster sida av headern */
   font-family: Nunito;
   margin-right: 850px;
   margin-top: 25px;
 }
 
 .container {
+  /* Positionering gällande hela kontakt rutan */
   width: 50%;
   margin: 0 auto;
   margin-top: 5%;
@@ -62,12 +71,14 @@ header {
 }
 
 h1 {
+  /* Storlek + position för rubriken med svart färg*/
   font-size: 36px;
   margin-bottom: 20px;
   color: black;
 }
 
 form {
+  /* Positionering av textrutorna */
   margin-top: 50px;
   display: flex;
   flex-direction: column;
@@ -77,6 +88,7 @@ form {
 input[type="text"],
 input[type="email"],
 textarea {
+  /* Utseende för rutorna */
   width: 100%;
   padding: 10px;
   margin-bottom: 20px;
@@ -88,6 +100,7 @@ textarea {
 }
 
 input[type="submit"] {
+  /* Struktur + utseende för "Submit" knappen */
   width: 20%;
   padding: 10px;
   font-size: 18px;
@@ -102,11 +115,13 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
+  /* Hover effekt för "Submit" knappen */
   background-color: black;
   color: whitesmoke;
 }
 
 footer {
+   /* Position och utseende för footern */
   margin-top: 7%;
   padding: 1%;
   color: black;

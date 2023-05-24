@@ -1,4 +1,5 @@
 body {
+  /* Bakgrundsfärgerna vilket jag har skapat genom cssgradient.com */
   background: rgb(227, 66, 52);
   background: linear-gradient(
     0deg,
@@ -13,11 +14,13 @@ body {
 }
 
 header {
+  /* en svart border för min header */
   border: 3px solid black;
   border-radius: 12px;
 }
 
 .navbar {
+  /* Min navbars storlek och hur alla items i den ska vara placerade */
   height: 100%;
   display: flex;
   align-items: center;
@@ -26,6 +29,7 @@ header {
 }
 
 .navbar a {
+  /* Utseende för knapparna */
   text-decoration: none;
   color: inherit;
   font-size: 22px;
@@ -35,29 +39,34 @@ header {
   font-family: Nunito;
 }
 
-.div-list {
-  height: auto;
-  width: auto;
-}
-
-.div-list a:hover {
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
-    rgba(0, 0, 0, 0.22) 0px 15px 12px;
-}
-
 .buttonlogo {
+  /* Storlek för hemknappen */
   display: flex;
   height: 50%;
   width: 50%;
 }
 
+.div-list {
+  /* en div som knapparna är i */
+  height: auto;
+  width: auto;
+}
+
+.div-list a:hover {
+  /* Hover effekt med en box shadow som får det att se ut som att den flyttas frammåt mot användaren */
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
 #logo-name {
+  /* Namnet på företaget som står på vänster sida av headern */
   font-family: Nunito;
   margin-right: 55%;
   margin-top: 1.5%;
 }
 
 .box {
+  /* Positionering av elemnten inom och skapar en rund box */
   display: flex;
   flex-direction: row;
   border: 5px solid black;
@@ -68,6 +77,7 @@ header {
 }
 
 #img {
+  /* bestämmer storleken för diven men en bild inuti */
   margin: 15%;
   width: 100%;
   height: 300px;
@@ -75,20 +85,24 @@ header {
 }
 
 .Heading-and-text-box {
+  /* storlek för diven med text, pris och knappen i */
   margin: 5%;
   width: 40%;
 }
 
 .Heading-and-text-box > h1 {
+  /* positionering av rubriken */
   margin: 5%;
 }
 
 .Heading-and-text-box > p {
+  /* positionering av underrubriken */
   margin: 5%;
   width: 35%;
 }
 
 .cash-n-shit {
+  /* Diven med priset och knappen i, denna används för positioneringen av dem */
   flex-direction: row;
   display: flex;
   color: black;
@@ -96,6 +110,7 @@ header {
 }
 
 .cash-n-shit > a {
+  /* design av knappen */
   margin: 3.5%;
   color: inherit;
   font-size: 22px;
@@ -106,16 +121,19 @@ header {
 }
 
 .cash-n-shit > a:hover {
+  /* hover effekt */
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 .Information-and-text {
-    width: 25%;
-    margin: 5%;
+  /* positionering av testen som är åt höger av rutan */
+  width: 25%;
+  margin: 5%;
 }
 
 footer {
+  /* Position och utseende för footern */
   margin-top: 118px;
   padding: 1%;
   color: black;

@@ -1,4 +1,5 @@
 body {
+    /* Bakgrundsfärgerna vilket jag har skapat genom cssgradient.com */
   background: rgb(227, 66, 52);
   background: linear-gradient(
     0deg,
@@ -13,11 +14,13 @@ body {
 }
 
 header {
+  /* en svart border för min header */
   border: 3px solid black;
   border-radius: 12px;
 }
 
 .navbar {
+  /* Min navbars storlek och hur alla items i den ska vara placerade */
   height: 100%;
   display: flex;
   align-items: center;
@@ -26,6 +29,7 @@ header {
 }
 
 .navbar a {
+  /* Utseende för knapparna */
   text-decoration: none;
   color: inherit;
   font-size: 22px;
@@ -35,33 +39,39 @@ header {
   font-family: Nunito;
 }
 
-.div-list {
-  height: auto;
-  width: auto;
-}
-
-.div-list a:hover {
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
-    rgba(0, 0, 0, 0.22) 0px 15px 12px;
-}
-
 .buttonlogo {
+  /* Storlek för hemknappen */
   display: flex;
   height: 50%;
   width: 50%;
 }
 
+.div-list {
+  /* en div som knapparna är i */
+  height: auto;
+  width: auto;
+}
+
+.div-list a:hover {
+  /* Hover effekt med en box shadow som får det att se ut som att den flyttas frammåt mot användaren */
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
 #logo-name {
+  /* Namnet på företaget som står på vänster sida av headern */
   font-family: Nunito;
   margin-right: 55%;
   margin-top: 1.5%;
 }
 
 main {
+  /* Texten inuti main-elementet kommer att visas med fonten "nunito" */
   font-family: nunito ;
 }
 
 #h2-for-section {
+  /* Bestämmer positionen, och utseendet för texten */
   font-size: 46px;
   line-height: 54px;
   color: black;
@@ -70,20 +80,24 @@ main {
 }
 
 .section-p1 {
+  /* Det kommer att finnas ett mellanrum på 40px på toppen och botten av elementet och 80px till höger och vänster */
   padding: 40px 80px;
 }
 
 #butik {
+  /* Centrerar innehållet inuti elementet */
   text-align: center;
 }
 
 #butik .pro-container {
+  /* elementet kommer att ha en 3px tjock border med en färgkod. Bordern kommer att ha rundade hörn pga dess radie på 25px */
   border: 3px solid #22031f;
   border-radius: 25px;
 }
 
 .butiksektion {
-  display: flex;
+  /* koden bestämmer hur alla element inom den kommer att positioneras */
+  display: flex; 
   justify-content: space-between;
   padding-top: 20px;
   flex-wrap: wrap;
@@ -91,6 +105,7 @@ main {
 }
 
 #butik .pro {
+  /* Ändrar utseendet och position/storlek på elementet */
   width: 23%;
   background-color: white;
   min-width: 250px;
@@ -102,11 +117,13 @@ main {
 }
 
 #pr {
+  /* elementet kommer att ha en bredd på 100% av sin container och ha rundade hörn på 20px */
   width: 100%;
   border-radius: 20px;
 }
 
 #butik .pro2 {
+  /* Ungefär samma som #butik .pro */
   width: 13%;
   background-color: white;
   min-width: 250px;
@@ -120,14 +137,17 @@ main {
 }
 
 #butik .pro2:hover {
+  /* gör så att det blir en skuggeffekt runt elementet när man har musen över den */
   box-shadow: 20px 20px 30px rgb(214, 214, 214);
 }
 
 .pro-container h1 {
+  /* gör så att texten inom elementet h1 kommer att ha en mellanrum på 30px över sig */
   margin-top: 30px;
 }
 
 .pro-container2 {
+  /* ändrar storlekt och utseendet för containers */
   border: 3px solid #22031f;
   border-radius: 25px;
   margin-top: 50px;
@@ -135,6 +155,7 @@ main {
 }
 
 .pro-container3 {
+  /* ändrar storlekt och utseendet för containers */
   border: 3px solid #22031f;
   border-radius: 25px;
   margin-top: 50px;
@@ -142,6 +163,7 @@ main {
 }
 
 .butiksektion2 {
+  /* koden bestämmer hur alla element inom den kommer att positioneras */
   display: flex;
   justify-content: space-around;
   padding-top: 20px;
@@ -150,10 +172,12 @@ main {
 }
 
 h1 {
+  /* Ändrar textstorleken på texten till 35px */
   font-size: 35px;
 }
 
 footer {
+  /* Position och utseende för footern */
   margin-top: 1%;
   padding: 1%;
   color: black;
