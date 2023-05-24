@@ -57,6 +57,10 @@ header {
   margin-top: 1.5%;
 }
 
+main {
+  font-family: nunito ;
+}
+
 #h2-for-section {
   font-size: 46px;
   line-height: 54px;
@@ -94,12 +98,7 @@ header {
   border: 1px solid lightgray;
   border-radius: 25px;
   cursor: pointer;
-  box-shadow: 20px 20px 30px rgb(185, 185, 185);
   position: relative;
-}
-
-#butik .pro:hover {
-  box-shadow: 20px 20px 30px rgb(214, 214, 214);
 }
 
 #pr {
@@ -116,7 +115,6 @@ header {
   border-radius: 25px;
   justify-content: center;
   cursor: pointer;
-  box-shadow: 20px 20px 30px rgb(185, 185, 185);
   position: relative;
   margin-top: 30px;
 }

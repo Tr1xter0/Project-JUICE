@@ -1,4 +1,5 @@
 body {
+  /* Bakgrundsfärgerna vilket jag har skapat genom cssgradient.com */
   background: rgb(252, 191, 221);
   background: linear-gradient(
     0deg,
@@ -8,11 +9,13 @@ body {
 }
 
 header {
+  /* en svart border för min header */
   border: 3px solid black;
   border-radius: 12px;
 }
 
 .navbar {
+  /* Min navbars storlek och hur alla items i den ska vara placerade */
   height: 100%;
   display: flex;
   align-items: center;
@@ -21,6 +24,7 @@ header {
 }
 
 .navbar a {
+  /* Utseende för knapparna */
   text-decoration: none;
   color: inherit;
   font-size: 22px;
@@ -31,47 +35,44 @@ header {
 }
 
 .buttonlogo {
-  display: flex;
+  /* Storlek för hemknappen */
   height: 50%;
   width: 50%;
 }
 
-.line {
-  font-size: 5px;
-  color: transparent;
-  background-color: #7393b3;
-  border-radius: 12px;
-}
-
 .div-list {
+  /* en div som knapparna är i */
   height: auto;
   width: auto;
 }
 
 .div-list a:hover {
+  /* Hover effekt med en box shadow som får det att se ut som att den flyttas frammåt mot användaren */
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
 #logo-name {
+  /* Namnet på företaget som står på vänster sida av headern */
   font-family: Nunito;
   margin-right: 55%;
   margin-top: 1.5%;
 }
 
 .introduction {
+  /* positionering av main */
   margin-top: 2.5%;
 }
 
 .article-div {
+  /* Storlek och positionering på första artikeln */
   width: 25%;
-  border: 3px solid transparent;
-  border-radius: 40px;
   margin-left: 25%;
   margin-top: 8%;
 }
 
 .article-div > p {
+  /* Färg, storlek och positionering för underrubriken */
   color: black;
   margin: 2%;
   font-size: 25px;
@@ -79,6 +80,7 @@ header {
 }
 
 .article-div > h1 {
+  /* Färg, storlek och positionering för rubriken */
   color: black;
   margin: 0%;
   margin-top: 1%;
@@ -87,6 +89,7 @@ header {
 }
 
 .logo-image {
+  /* Storlek och utseendet för bilden i introduktionen */
   width: 35%;
   height: auto;
   margin-top: 5%;
@@ -98,6 +101,7 @@ header {
 }
 
 .black-line {
+  /* Utseendet för de linjer som stänger in sectionen */
   background-color: #7393b3;
   margin-top: 15%;
   width: 100%;
@@ -106,7 +110,8 @@ header {
   font-size: 0px;
 }
 
-.info-main {
+.info-section {
+  /* Sectionen med information om Ägeren osv */
   font-family: Nunito;
   display: flex;
   margin-left: 10%;
@@ -114,34 +119,40 @@ header {
 }
 
 .info {
+  /* positionering och storlek för undertexten */
   width: 75%;
   font-size: 22px;
 }
 
 #birb {
+  /* storlek för bilden på fågeln */
   width: 20%;
   height: 20%;
   margin-right: 15%;
 }
 
 .flex {
+  /* En div som positionerar allt i min main */
   display: flex;
   justify-content: space-between;
 }
 
 #mandrinkingjuice {
+  /* Storlek och positionering för bilden på vår kund */
   margin: auto;
   margin-left: 2.5%;
   width: 30%;
 }
 
 .info2-main {
+  /* Diven som informationen längst nere på hemsidan ligger i, används för att positionera mina items */
   display: flex;
   justify-content: flex-end;
   font-family: nunito;
 }
 
 .info2 {
+  /* Info2 är diven som inehåller rubriken och undertexten */
   display: flex;
   flex-direction: column;
   margin-left: 5%;
@@ -149,15 +160,18 @@ header {
 }
 
 .info2 > h1 {
+  /* Storlek för rubriken */
   font-size: 360%;
 }
 
 .info2 > p {
+  /* Storlek för undertexten */
   width: 80%;
   font-size: 160%;
 }
 
 footer {
+  /* Position och utseende för footern */
   margin-top: 1%;
   padding: 1%;
   color: black;
